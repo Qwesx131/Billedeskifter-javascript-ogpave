@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;600;800&display=swap');
+@import url("./nav.css");
+@import url("./grid.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: auto;
+    margin: auto;
+}
+
+header{
+    background-image: url("../images/Background.jpg");
+    background-size: cover;
+    height: 96vh;
+    background-repeat: no-repeat;
+   
+    
+}
+
+
+#logohvid{
+    position: relative;
+    display: block;
+    height: 40%;
+    width: 30%;
+    top: 300px;
+    right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overskrift1{
+    margin: 60px;
+}
+
+.overskrift1 h1{
+    color: #c82113;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+   
+}
+
+.overskrift1 h2{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.læsmere{
+    text-align: right;
+    column-count: 2;
+    list-style: none;
+    
+}
+
+
+
+.læsmere a{
+    color: #333333;
+}
+
+.overskrift1{
+
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+.artiklerne{
+    column-count: 2;
+    column-gap: 10px;
+    width: 50%;
+    
+}
+.artikel1 {
+    column-count: 2;
+    column-gap: 10px;
+    }
+    
+ .kontakt{
+    font-size: 40px;
+    color: #1085df;
+    font-family: 'Bebas Neue', cursive;
+
+ }
+
+ .kontaktform{
+    background-color: #333333;
+ }
+
+ .footer-main{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .footer-main a{
+    color: #1085df;
+    font-family: 'Bebas Neue', cursive;
+
+ }
+
+
+
+ .footer-main article{
+    color: white;
+ }
+.logoer{
+    background-color: #333333;
+}

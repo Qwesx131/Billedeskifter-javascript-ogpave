@@ -1,0 +1,49 @@
+.galleri{
+    grid-template-columns: repeat(3, 1fr);   
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.galleri img{
+    width: 100%;
+}
+
+.galleritekst{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #c82113;
+    margin: 20px;
+}
+
+.Gallery-challenge{
+    display: grid;
+      
+}
+
+
+.Gallery-challenge div{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 0.5rem;
+    
+    
+}
+
+.Gallery-challenge h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #c82113;
+    margin: 20px;
+}
+
+.Gallery-challenge div:nth-of-type(1) img{
+    width: 100%;
+}
+
+.Gallery-challenge div:nth-of-type(2) img{
+    width: 45%;
+    
+}
+
+

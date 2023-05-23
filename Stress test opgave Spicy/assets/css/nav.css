@@ -1,0 +1,22 @@
+.nav-main ul li{
+    display: inline-block;
+    margin: 10px;
+  
+    
+}
+
+nav{
+    background-color: black;
+    padding-left: 60px;
+}
+
+nav a{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+    
+}
+
+nav a:hover{
+    color: #1085df;
+}
